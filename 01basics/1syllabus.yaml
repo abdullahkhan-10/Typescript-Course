@@ -1,0 +1,32 @@
+Installation of Extension and Requirement:
+Node js, VS Code extensions
+
+Installation of Typescript:
+(npm i typescript -g)
+
+Convert typescript file into javascript file
+(tsc filename)
+
+BASIC TYPES:
+Number, string, Boolean
+Array, Tuples
+Any, Unknown, Never, Void
+Enums
+
+Type Inference:
+
+Union and Intersection:
+
+Type Alliases:
+
+Interfaces:
+
+Classes:
+Constructors
+Public, Private, Protected Member
+Readonly Properties
+Getters and Setters
+
+Functions:
+Function type
+Optional and Default parameters
