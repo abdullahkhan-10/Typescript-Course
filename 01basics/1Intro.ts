@@ -10,7 +10,7 @@
 // For example, TypeScript will report an error when passing a string into a function that expects a number. JavaScript will not.
 
 // ------------------------------- What typescrit does -----------------------------------
-// it do static checking, which mean it check the code when we are writing if there is any mistake in it or not.
+// it do static checking, which mean it check/analyze the code when we are writing if there is any mistake in it or not.
 // the javascript don't have this property, we only know about errors when we run the code.
 
 
@@ -21,4 +21,8 @@ var user = {
 
 console.log("Abdullah khan");
 console.log(user.name);
+
+// it will gave us an error becausee the property email does not exist in object
+// console.log(name.email);
+
 
