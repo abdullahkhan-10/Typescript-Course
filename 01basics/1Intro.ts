@@ -9,6 +9,10 @@
 // TypeScript allows specifying the types of data being passed around within the code, and has the ability to report errors when the types don't match.
 // For example, TypeScript will report an error when passing a string into a function that expects a number. JavaScript will not.
 
+// ------------------------------- What typescrit does -----------------------------------
+// it do static checking, which mean it check the code when we are writing if there is any mistake in it or not.
+// the javascript don't have this property, we only know about errors when we run the code.
+
 
 var user = {
     name: "Abdullah",
