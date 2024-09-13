@@ -54,3 +54,6 @@ const data1: string[] = ["1","2","3",]
 // array of numbers and string
 // To have an array of mix types we need to surround the types with parenthesis.
 const data2: (number | string | boolean)[] = [1, 2, 3, "khan", "10", true]
+
+
+export {}
