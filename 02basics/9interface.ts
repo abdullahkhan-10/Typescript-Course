@@ -13,11 +13,18 @@ interface User {
     getCoupon(couponName: string, value: number): number
 }
 
+// Re-opening Interface
+// let suppose we missed some property above, and don't want to make change in above interface, then we can re-open it as well, and add our required property.
+interface User{
+    githubeAccount: string,
+}
+
 
 // create variable (abdullah) and set the interface (User) to it.
 let abdullah: User = {
     dbId: 11,
     email: "khan$gmail.com",
+    githubeAccount: "abdullahkhan-10",
 
     // We will define functions here.
     startTrail: ()=>{
