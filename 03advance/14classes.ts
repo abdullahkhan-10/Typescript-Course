@@ -67,7 +67,3 @@ newPerson.isAvailable
 // property and method from class (User3)
 newPerson.age
 newPerson.getEmail
-
-
-
-export {}
