@@ -58,46 +58,6 @@ class User2{
 }
 const abdullah2 = new User2("abdullah", "khan@gmail.com")
 
-// ------------------------------- getter and setter ------------------------------------
 
-class User3{
-
-    private _courseCount = 1
-    readonly myCity: string = "peshawar"
-    constructor(
-        private name: string,            
-        public email: string
-    ){
-    }
-
-    // ---------- getter ------------
-    // getter method is used to get value, let suppose to get email
-    // getter allways return a value.
-    get getEmail(): string{
-        return `Your : ${this.email}`
-    }
-
-    // getter  is also used to expose and make accessable the private property to outside from the class
-    get courseCount(): number{
-        return this._courseCount
-    }
-
-    // ---------- Setter ------------
-    // It is used to set the value
-    // The setter do not return anything, that's we are not explicitly mentioning the type.
-    set myCount(courseNumber: number){
-        if (courseNumber <= 1) {
-            throw new Error("Course count should be more than 1")
-        }
-        // update the variable (_courseCount) value with the number we have access in parameter(courseNumber) when called/envoked the method.
-        this._courseCount = courseNumber
-    }
-}
-const abdullah3 = new User3("abdullah", "khan@gmail.com")
-
-abdullah3.getEmail
-abdullah3.courseCount
-
-abdullah3.myCount
 
 export {}
