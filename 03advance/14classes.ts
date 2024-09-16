@@ -45,8 +45,11 @@ abdullah3.courseCount
 abdullah3.myCount
 
 // ------------------------------- Inheretence & protected ------------------------------------
-// When we use the keyword (protected) with any property, then we can access that property within the same class as well within another class which inheret the parent class. and still we can not access outside both classes like (private).
-// Now in the (SubUser) class we will access to all the properties and methods of class(User3) except the property with (private) keyword
+// Classes can extend each other through the extends keyword. A class can only extends one other class.
+// Now in the (SubUser) class we will have access to all the properties and methods of class(User3) except the property with (private) keyword
+
+// When we use the keyword (protected) with any property, then we can access that property within the same class as well within another class which inheret the parent class. and still we can not access it outside both classes like (private).
+
 class SubUser extends User3{
     isAvailable: boolean = true
     changeCityName(){
