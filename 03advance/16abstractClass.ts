@@ -39,3 +39,6 @@ class Facebook extends TakePhoto{
 const Abdullah = new Facebook("test", "test", 10)
 Abdullah.getEmail()
 Abdullah.getRealInfo()
+
+
+// Note. Abstract classes cannot be directly instantiated, as they do not have all their members implemented
