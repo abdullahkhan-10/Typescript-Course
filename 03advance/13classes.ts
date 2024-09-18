@@ -2,13 +2,13 @@
 // TypeScript adds types and visibility modifiers to JavaScript classes.
 
 class User{
-    myName: string
+    myName: string                                  // define the property
     myEmail: string
 
     // If we want to add another variable, and we are not defining and accessing it's value in constructor, then we can directly assign value to it.
     myCity: string = "peshawar"
-    constructor(name: string, email: string){
-        this.myName = name
+    constructor(name: string, email: string){        // get value when creating an object for this class
+        this.myName = name                           // assign those values to properties defined above
         this.myEmail = email
     }
 }
