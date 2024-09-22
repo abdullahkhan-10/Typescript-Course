@@ -13,20 +13,34 @@ Array, Tuples
 Any, Unknown, Never, Void
 Enums
 
-Type Inference:
-
-Union and Intersection:
-
 Type Alliases:
 
 Interfaces:
+
+Union and Intersection:
+
+Functions:
+Function type
+Optional and Default parameters
 
 Classes:
 Constructors
 Public, Private, Protected Member
 Readonly Properties
 Getters and Setters
+class implements
+abstract classes
 
-Functions:
-Function type
-Optional and Default parameters
+Generics:
+generics array
+generics classes
+
+Narrowing:
+
+Utilities types:
+
+keyOf:
+
+
+
+
